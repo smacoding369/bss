@@ -4,9 +4,20 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SMA CODING</title>
+	
+	 <style>
+      table, th, td {
+      border: 2px solid steelblue;
+      }
+
+      .ta{
+      		text-decoration: underline;
+      		font-size: 20px;
+      }
+    </style>
 </head>
 <body>
-	<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBQUEhgVExQYGBgYGxoYGBsbGhkZGRgYHRgbGhsaHBkbIS4kGx0qIRsaJTcmKi4xNDQ0GiM6PzoyPi0zNDEBCwsLEA8QHxISHzMqJCo1NTMzMzMxNzkzMzU1NDMzMTQzMzM+MzMzMzMzMzM1MzMzMzMzMzMzMzMzMzMzMzMzM//AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIEBQYDB//EAEYQAAIBAgQDBQUEBwUHBQEAAAECEQADBBIhMQVBUQYiYXGREzKBobFCUsHRFCNicoLS8DOSorLhFRYkQ4OTwkRTVGPiJf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACwRAAICAQQBAgUEAwEAAAAAAAABAhEDEiExURMEQWFxgZGhFCIyQjPB0bH/2gAMAwEAAhEDEQA/ANqBS0tFfYPhiUlOpIoBKKWKIqihKKdFEVBQ2iliiKpKEopYoqChKKWKIqihKKWKIoKEopYoigoSiliiKChKKWioWhKKWigoSiliiKooSiliiKChKKWKIoBKWiKWKgEpaKWhRIopaKAIoinRRFQDYoinURQDYoinRRQDYoinURQDYoinRSUAlEUiXFJgEEinRSxQlFc1vrmKkwRGh5g8/XSutRNMtMbFEVDx+PFtGO7ASB10n8DUPh2KuXNZUAkwfvDQAj0086y8iT0m1jbVlzFEUsURWzmJFFLFLFANiiKdFEUsDYoinRRFLA2KIp0URSwNiiKdFEUstDYoinRRFLA2KIp0URSwJFEUsURUARRSxRQBFEU6KSKhRIopYoigEiiKWKIpYGxRFOiiKtgbFVvGrtxLZa2gYAa669IiNRVrFR8XiVthc+zNl+RP0BrEnSLBbnnmG4kyXQ7F9II01y5hv4RPrWv4PxZblvU94A/Ibnz+FU3afhyOjXLfnt4zE8jP9a1kuFNctuv2kRszA9JmI2mBvy0rw+Zwk096Pd4VKJqe0PES9sXF0e2xjLzQwD9RB23rpwDtAWtMHf8AswMzHc/eBERp8zVPd4i9p3t3ArAZirxuCBIImM23T86bHYgW7DQMrXix0jWAB8ANfXzrgsklJte50eKNJGgx2PL3FUbyxVdTGrAwYmCBMbaxFXvCMAbkPnhgQWClgpXYGDv7sfA9dcqp9q6OFmQB5iQc09eU9fOvR8DlCLtJAPnPP4nWvX6eOpamcM707IkxRFI15QwQkZjsJEx5U+K9lnjqhsUsUsUsUsDYoinRRFLA2KIp0URSwNiiKdFEUsDYoinRRFLA2KIp0URSwNiiKdFLFLA2KIp0URSwJFLSxRUsBFJFPpKWBsURTqIpYEikinxSRSwNiiKdQaAbFYHtLxhzcCHu5dwOoPvTzEjby8an2uP3LWLa1dgoxYoRyk7a/HnHjBmqbtK4LWyD9p526ofxn41yio5ZaHfv+DtTxq0Tm4pbyJ7SQDsRJLEBSQcu26+pquW0r52twwIgaas+qgGdve+flVb7KFcR3zcQMN5OW5BXqCMvxkV2weMNu3dQ7sIXwb3W15d0n0Fc4egjkxqcW7b339rOsvUyjNp8L/hwxeK9pbh4MAgafZA5DaSABWcNp3IHeYLMHWDz+Go2q+ZGQ67gZ/hlz6/DlXPiSnMUtkL3giyYCgGBr8K6y9FBSdN0lYXqpOKtK26JvAsVbtWx+kDRJYCQCTpAWCN9etTbXF8RiAo0VUygNrJJKlROwghdvLpOe/RnuFFIGYac9THMRW04NwG5lGbYPqOkCJ8RoNo3rlLHKL0x4OkZRa1SOGAvN7dO87NnTLcJPeUyzGJ1BLERXoAOkmsJiUVGN9XBGGuKipIzMgYm4wEz7zED92tDxUrev4ewTNtw9xwDo6qoKKY3Ukz8K9EcWn3+Z5MmXW9kXKOG1UgjwIP0p8VS4js+ntbT2VS3kdWcDuq6iSO6ogsDt5muXaZ7r5bNhir5WvMVJByJoq6feYj0rSSbSTOV1yX8URUHCXxicMrqzLnTUqYZW2aDyIIIqm4fZxLYYXreJdnGaUfK6NlYjLtIkDrRRsrZp4oisPxDjV92tvausi3ED5ITusuUMoLLrJnc8qenHL/srzpeDlPZuGZEAKuIyECIMmduRq6GL2s2dxwqknYeX41FONA0IynLmYTOUbcveM6aetVWH7RA4T2jCbgRswiFzg5QpH7RjTxrO2uJ3BbN22EXOZdVDjLlMBpMnTfunQctKxTf3r6lVe/z+husNivaM0L3QBr49D1+E1JistZ4m63lS1ldGQO7Z2IkkrPe8YgaTU7G8RuBu7oAJIgaNrAJPvAiNt50rMm4rc3p1PYvIoiofCcQblsXCQc06CIEGIqbFVO0Zap0JFFRsVjltmDvE+A8642uJBlmBJ1AmPrvz26VNaui6HVk+iudi8HmAdInzImB1rtVTslUJFFOikpZKPOB2zvfd/x//muz9sboVDk1dc0Zxp3mA+xroJ+NYy5egGpWPbK4T7iInxCCfnNdnjjqS/2bUnTf+jUp20uSB7PUkAd5dyYH2K63O2rqzLkJgkTK6wYn3ayGAf8AWoTsmZz5Ipf6gVHNyr44uVByajdL7G6s9tGbN+rIyrmOq/eVQNuZak/35PO2f8P51jLTxadvvuqDyUF2+ZSo73NKkccXZXJ7bL7G/PbeFVvZt3pIELMBis+91B9KW326BZV9m0sQo7o3JgfbrE405WCfcVU+IEt/iLUzBvDlvuKz/GMq/wCJlqeNabL/AGqi/wCKcVwt55dbgjTuBMp13gsd4+M1yv4rDXBmLXgFPRdWaTO51hfkKz5bSujmLaD72Zz8e6vyU+tFhjBqS5K5tpprYvLuOwzBZu3BlOacgMsNidK5479Ha4xN11bn3GbWPrVLhwGdQdveb91e8fkDSPckljuSSfjrW4qnSdJL/wBMyaatrkt8lhpP6Qe6BM23Omi/GjFLhnYsL4UaSDbeJHPaqsGLY/bOb4LKj5lqagDMAdt2/dGp+QqK6bv4cexaVpV8fqajhGKsWLzXLtxHJG2UpBMGdR05VoLnayx7NvZMgbYFm7onQcvl4V5fib8kk7kk+tWGG4JfuWhcXIEPe7zEGANDAB0j61ma4be5VFO6WxrcLxHBDDi3cSwzhSucsneYj3i5GYEkk84rlbxwVLMXrXtcMSqEuMroZBRxusCBpPwrLf7JuJbF5ihRTOjGSQYAggfagVAZ9CTRXb3MuEaWx6Xc497V7cultEbO+S7nLso0tzCjKZ1B3ptm7ZvXrlzEAy0C3kuEAIo0U5GBJJJPSvO37oVOglv3m1PoIHwriXCgt/CvmR3j6SP4qlNK0y6FdUei8Lxtyxnt27RNovnQ51LKNCyjXWYMeetcbGKv2raZLbqULFxCxcBZyMxnlI+fhWBw2Au3Rmt2mZJgsFkDrUjEWLqj2htuiaAGCFAGiiR4CKjWpu30xpSXBfHCPCB7bNlzEiCdwpjQ9c1OsYc20uCLhDIQJRtWY6CI5ZV18eW1UBxDqqrncE99u83Md0b8hB/iNdLOMuBWb2j/AHF777nc78h82FVpum9+v+jTFWkXuR8+UKQrlLjGGgZZzDXmSAfSl4VfKhkK7BiMwMAT3j6fjVHYx90sB7V43Y5iYUanfwpW4xfkkXGEnQaEDwEipki5Kuqd/FCCit+7Ro+F3Ft3Wa28gM6jvSIBKpMHURtyqbcx6XAyKwy6Bisr3lYEd3ukzrpO3MkVlr/GL6nL7SSoAY5UMt9rl10+FKeM3gikspLSdUTRdhy5kN6CuU8U5O0+TpGUUq6NZib7I2S1cZlEElBm1kki4rGdB47Tpzq24PxFndjcbvGWVACAROgBcAnnEV59a4zcCs2W3yUdyJJ1MwdRlHzFdrXaC6zHMtsgBixh5iIic/MkD41nxTW4uL2PU7kG2WYRpJ8I06eFUi5VD6yVPd1EiXDNqZ1gwPLTesfhu1d/RAFhtDq0QdzBnlXI9o21AtzO3fIJ6DapPHkvZCDiluzb4DibJkVyJecszuABv89B4VcpjbRXN7RSNRIOhIMGPjpXl78aRLki1qhInOSDqJEEQRI2qRiePqRlNsqD3iFygS3eII57/WrGE0uBJRbuz0G5jVkxeUeBXb5ikrDpxCy4z3M2ZtTJWfCdekUVm59F8cezoexf/wBX+b+an3+yDO7O1tpYljGbcmetei0V01S5sxrXR5za7HFc0W37ylDvsYmPHT51zPYk/cf1/wBK9Kopqn3+Bqj0eav2OORUyXAFLEaiSWiZ7vgK4jsZBBy3DBBgnQwdj3Nq9QopqlVWXVHmvyeX3+yTMzMVuSxLHXmTP3KYnZQhWWH72WTroFJMe5zMelep0U1S7GuPR5M/ZI9X+f8AJTsT2ZOjHOqwqrMfZUCNvCvV6qO0jqtpS0RniTylWUH1IrMsk1vZqDjJ1X5PO07Mlc0F5YZdthIJ5dBHxrnc7LkGC7g7wVEx1r1nCX89tHH2lB9RVUcWtvGXC0x7KR45GAIHjrUllnFrflmoqLvbhdnnd/s6SRDvAAUDKDsI68zJ+NcLvAzbDB3dSwgZkAgSCdz4R616QnaqwbmQ5lH3iNm6QJ08fGuHbPDEsjAad5ddvU1PO2kk0yxinbao82sdny7r+szLMtoB3eeoJ32+NbT2KiywA2BjU9K58FQC3lI1VmXTXQGQJ22IqXitLbQp2PTp51VOUnbK0lsjO/o4ucPicveGsE7P0qiXhoDAtcEAyRkOvhvWu7O4w2sOHFvOQWgSADJI5nlNWb9rLQWWsAHMq6hcrSdcvPbWmb1ChJxb9+jEI2k69jzm5w5pM3Vk6mQw/Cmtwt3ZEV1I5kTpOrNBHw+Arb9ssHOIJyznVToPCOVQuFovswSAG1DaQZBI2HlUWZyo6aIqydw/CqlkopMKsD0PhVUmFNzAhZ/5gJHKA8n41foQEMA7dDWftXiuAcrIIbeDoCyydBuAZiumqsbfyOdXNfUpbvDMQSTlUk6+8o+ppbvDbwCqEBCj7y6sdW5+Q/hq2sYvPb7pGcrI1OhAEzJ31H9bK1xxk725g66ankN9Aefyrzfr9+DfhXZTpw+6EPcGZjEZl0Ua9eZj+6aSxg7obMbfujMNRq32Rv1IPkDVq15tB7Qyfe0Jgach1kb1Dv424FzJcDwSGkAEcg2vLb1FaXrrVUPAruyCuCukhSjCTBJ2HUmlv27hYkW3jYCJhRoBp4AVNucUuLbDySSYnuhZAMwNSfPb1rivGbp1kQdiU0kDUT/W9df1e91+SeBVVnK/YuKFX2b90Se6dWbU/gP4aT2VwWx+reXMnunRV0A25mT8BXR+P3QQSFCnnlDee2/9dKZ/t64dRlifuj+pqL1i22Dwc7jbaMqMxRte4O6efvH0EfxU3DNBLEHuDNsfe2X5kelTLHGCySXAcmAuXfxn5fEUwcdfKSCDBIG4mJ3+Va/VrrkLB8SLhyGYA7DVv3QJPyFKHNx45ufmT9KlJxm4ToAfWTpJ0muq8Y0B021iZVtdNeW2tT9ZG3syfp3xZCu31ZiQdNh5DQfIClqWeLjqvo35UVf1UOmXwy7R7XSUtJQ84UUUVQFFFFCUFFFIrg7cqFoWqHttaJwTsPssrDxgz6RV9VT2rH/BvrEhh8SsD5xXLM6idcC/cRuxF4vgbZPLOvwDmPlVd2nuP+mIogA2bg5a9wN57qKv+BYFbFhLQOwBP7xAzfOT8ap+1VljirGRFJIygk5c2YAatEjz3rnlTpI3Bq2zAcQJUSpIE5pXciNNtDt1r0jtnZm0G+6/nuDVTjOFW7ZhlzFhl94aiO8I1iTOunL46PtEQcO/dmAGgz4dK88I6XT5O0XaZluz7d116MD8CoH1U1OxnunyNVfBLk3HEZZQGBOsMes/eqzxiDLz2P2m/OvZE5Mo+DE/ohgT3iI01BYSNarmxbhyrWUIHdAy9d9Z6k1K4Yk4R9SDmI3P3hy2+VR8TiBBzrmjlHlA1HKd683rL8xcK/YjR9rcQQyCS5ygkMTEEmIgjpVVwu+CrAKohuU8wDOp6k0ztDxFXuI8Fh7MfaA09pdHQ8gKicOug3GCyoKqd5kgkTqPEV3UHGrK5KV0aSxOUzVHw9wMG8zAblvutXGHXunvHbw/KqTAEjCXSCZDnTUz7mkDXWukv8Mjn/ZEXCYVbbBlGdmBjZAN9SJlRrEeUUmMt3HaWCtOgUTAYjaN4mI8+VRA7MySwWDAjMAFJk7DSNd/GpLuGOrx3lYDQTDd4b6/618bdO2eggYZjqGBQQQ2pMr172nQT4+FQ8Q7AkgkxoN4Pd0I5bAa12xwBPcUdZlQCI13iTOafKoGNxDAo4OxkL01gg79BoeVeiBUSkw5dQNe4MxBARtWjIGG8+NWnFsGti0j23ZndUYhSwVDGoJAh523HuHTnVOMSbL5VhimhDeXrpPqNqmXOOM0KgzAKFhgXjaQATMDqNdImNT1U6fBGiFxG+z6uAXbvsVMe9AgqNAdOXI6xUB7hAyScq6iREGNdPHQVK4iyq7ZTOu4JiTvAOvMjeoiANOdteXXzmpd7hHMtJn61MzhkidRJJPz05cqivbhdI6jafKd4ptr3vgfofWiKT8PeUKJIzBo03iN561HN88xqa4WQzQACSdgNT8BWiPC1FtWuW3BAGZgPcEgAlTvqDy+orMpKJopfaefq350VorTYdAFFrOBszASfE6UVy8vwZmz1PF9obVuQVckbiAIMkEa+U6dRWev9rbj/wBnC6RyJmenp61Q3WLMLkqIBDZgQSIGw5QKj3LoySja5o6TsI/1/Otv1E5e9GI44o0mH7W3LYC3FD96SdSQvNR1M/1pVona606vkVgwWUDD3jr0mvNsRjSywZktOUTB+ANRbd11Mi4QCQshjpPKPx8K6xySSqw8cWeg4PtHcto7OGLMQVzbEwZYdeQioGG7TYq7nOYoq66KQD4CRI0isvxfEPny+0kIXykan3zAb46UYfiN14tj5ECefSuUpzaqxojfBo04xiAMzX2A2Ekz+fT/AFqTge19xXVTDgmW8RB2MTv9DVHeVSokQdDIJynTnM6b0/DW5+yBBMkQMq77CIM/SaxHJKO9srgmb6x2pssVGoDT03HhMxTuNMr4K44hhnBmdjCaVkbVgL7uhA6a7yd/GrjBXs/C7pJ09qAJ5jLbHx1HOujyzlSfAjjjF2jPYTAW0YK2pIB1gCdY0O+59K0HHMKzW8LkfIxQLtosDLsfKsnhcVnugIdQcumWS0DMdTrtv59K1nF5GHwpkFpdQNQCRccD8vhXPXJy3dmoxSKzIHuOD7w1TSAQI7uYGTqJK9Z2it7irftLTRENbHMc0FefIha77XMFzSi/ukEAwDGvjXoGEX9VbB/9u2D49xQasNmbowPCxkvrJHeDLAYMZjNsD+zV1jH0907Hp+dZ9P1eKH7NzL6kr+NaLGbetfQhweZ8mY4e8YR9D7x2jTUdagX3lAFQiVB0ET3vDqAPWpmBTNhLqiJzECesrUHDYfWHvIBETmYkHlqR5n4Vz9SqzauhiVwoi3b2YKPurl/xu3/lUnAsUuITGoK7gnUT7oMjar7tFgrYFpu6jG2BJHvwFGbu/jWdSyouKRcTQjm3X92vRkzqaVKjEMbi3bNdhn02O3h+dUuAk4e+okSzajlovjVxg3BBjWBVVwwH2eIAic7xNH/jkP7IqMbcB/5hGaC0bBsuw6mANNKiI5uHKYlQAGYxECPdnpr9amPgQm6lzPqDGXRt230FRL+AIk5Dl2JnbWIgD4TymvkKqPQJgFz5gbioAhLswOXLMahQTvHyrpj+FIkkXkco1vOihho4zTJ5QAOomKmcAs2nui3cMo9u4jmQoAI1g8jPOrniltWs3dUzveRUthlJFtD7NDCmTIlyf2vCvTBR0tgwb93vkAlyW6jWCBE1HtOVbMNBrtrpVzbwWa4iAghSVBAAMSTqesVL4rwZBbDqzZyXJEHUgwB0Bia561ZTOYi5Ow03nrP0piEAHx9RvWixaImHCSGdSUcZe6Sp0AeN9+U94dKziWsxgRu2k7Ry/KrF2Bh050tvSSeYPrFOuIV3HXaNeWp6+dcNdq2jRc8AuvFxbelwhcp55diBz3K+vrc4pXyBLt1VgDNB0zMNVmP2W0PjVPwLEhEuqCFd0yqScpiZgNyMxpz+FVt7GvC250Xf9oyTP+I1ylC5ME28CrEEajfX/Wir692fa8EuoFhrVk+Z9igJ16mT8aKmpF0nG5ima2xDGAGnQQToYBHlVX/tK4BlB0jXw15mq63imVSJ0Ovxrkr6/GukYJGKNEcj5Rn5S5jaBssflUG6FS4oDAglZjxI013qrN4kzNdbV0s6A8mUefeFVRFFzjMKbl57aMpJuXJ3+/t0Op/rSraxw42kCZu9qJ2OuYwIMzpWeOKNvGlgRpefXbQ3CDPhW0u22F1oIyDNoZkiRoPDXr+VcM0pRaQONpAFhh7pAJOh07vQaa/P4ULfRSAp0JLAazrA112/Om4u+bYRV7oac8RAAVQBmgazG3jVPd4sG1kZ1KgSvvSc3wgjr0rlGLlyDSgXChZckiAAZ3nbziflUvgjxw7FJcyh/bTA1LZUt5viARVBwrFi4roWyiO/qZgmJ+A003kDnNaHA2FOFuPblHwlwICCNSyI1yeTEEqJ5lPKvRHhLosV2YrBYkW74uEEoj6ttlD5lOk68zI6VseN4n/+bh4zG4VuuhAJBALuGB8mB2quxHDLJuLciEuSwQknv5pdQDBW2G59I2kRddocIP0KzdYkOmfIdBknvCBsCCF9BT3NpUZvgfEjeVx7mRvaLlIkwGMCfGB8TXqWCuKbSZRIyKJM6woH4V49gsOFjEJ3AxkgaC2CpzsP2Y76jxHQT6x2e72DsMBAa2jgE6gMoYDXzqpU9ivgxvaaLeJeEUahwe9PIz70culWuMGg7x5/d/KuHbPCk3lYZe8ke8o2JHM0z9ImzbJmSonQnWBPKvbj3PLk2Zn8E5XDX2BMqXPoAdao34vdhScoB/hUEbE84BAPQVc4G6BZvyJEuSIMEZdiY0qjx8e4RoCBbM6ZYnVdzOnOserSeQuD+Jse01z/AIbBM6qzGyJJLb5LZPukVk3uAzFtB5Z/xY1quMoWwGAMr/YgGWAkhLY5+VZhsOZ95P7wqQ4Ny5NZw8AqDJ1E7nwqFwof2+5hjAk6770/g939WogmAV0iNDHWo3D3IOIhSTJMab97xr0JfsfyPO/5I5XcRmkge62haR3hy05CfDeo96+gJmGD6FgoBgANBzaTynwPjVlawCvmYwTMIIywsjNCuBzj1O9NxXC7js7BO4AFVJA0BOVSo0BIEjzFfHSPVpaKLDqntVS4x9nm18NNJIA0Ogzeelaa9hFLBrYAdV0jYoNIgbwDp51S27RsXgzjMVe27IoAEZwYBbqRHKecCtLxvj+Guoi2FNu4XGYlApCZXG40OoFcMym8kXFOvhwvmd8ckoNOijLgMFuNmg66xmQKLayeYUExz1qla4yXo7xWcxAMZhprO2kAz4VZ8QZMgKKGIc5iZLADuLtyOkjqfEVY2MIlwMFsoQsqXZVnvqpAHj7wmNK9Sdbs40Ul3iaG3dtsiSCWUydp2A2k8/w50JwbpLMpAI0GhIBgwwGq8txVta4NcFxyQRkZondiBmgddI0pr8OuZiUzkn3pgSSddQdfOOVbTiuGClvkxqOkdD4j61HTferXE8FvKrOVGVMzNDKYA571FweBuXCfZrmIyzrB7xInXloZNdFKNbMHBrfd8SYAqbwbhBvF5MQpC7+/pl2+PpU7hODyXB7VZSYaI7srmmde9l1ga1ccE4Ldt3GkjKu0GA7HQT8SNOU1znOk2mEjricKFKqCTlS0s9YtqOlFWl3hpOWH+xbHoiiis6mdLRTjsliGIjBsBEGVtDXLvr410XsbjIEYVZk7ix0EbMPGvUl4Yq/af1A/8ad+hL99x8R+AmvTrZz0I8wXsZjTm/4ZBJ071oRrzh+ld7PY7FqyM1uyoG/f6b+6DXpYwafff/uMv5V0TCjkX/7lz+ajyP2GhHl+J7MYh3Yg21BdmnPcDZSZ2FsifCas8ThXAOZZJAmJI0GsEieR5Dc16ALcc2/vufq1OA/aP95vzrzZIynVvgqgjxnD4W5chRbuNDyJGVVXxJgAb6nkB1qt/wB38YpFxLLAgyJZBMHnLCPj1r3m8VcRcVHHiKgvwnCtPcKTr3WMT5Gn7l/GjelHl3DuB3LCOzFS+UMPtfryS1tdPsplzeJ+FX/AMCuHwF6zcud+5czu28HIoyg8yMvzPStW/ArRgLeZQNgR+VMfs8CP7cEjYldY05k7+NZbmNJkMGgvTbUnulChIlEI7pQE7Zl36lR1NWvF71u5hFtqZYM7iZy5AxyydiMuWrW52eumCt9B8CNeWnnUHG8AvW1a57W13RJJk7R9kbmKi1fUjTM6nClW263XIS5l5Qc0HLtvBOg5xW74Uy+xRUEKii2B0FsBPwrzziV7EEr7Mo+UzJ7oHkGjWJqxwXCeOaBAEU6+9by6tMkST8q6RjNbswpWW3ba13EfoSvqJ/CqTCvNhBMQzr8zG/hFW3E+DcVv2vZXBbBDZsyDXSY3Maz4VW3ezOMRMoVgsknRTJKgHmNNPA128yjF70zMoOUlsV+B4cre1tByQQcxZQILKJG5ka1EbsuDc/tHhRsANojQ9NtOlXeC7PXlZ2Gcq26lZEg7yDIO4577V2wnAcQrSTdZoYEsgAP2lHvawdoG2njXhzZ8knepcHaGKK2pnLH4ZLlizaZsnsFZZENmmIGp6DfWqW/wIKobOdTEwCB5jly9au8RwPEXbeZkdYJlMpDtBMHNrI6SaTDcEuQWZL3ejulHkMI1gCAIPlpWFnyJW5FcF0R8NhUtrCOSpMy2URMRSJgktF2a5GfXWI0nUeGtTrfAMqMCt5gRlWbbAAiIjmq85o/3eTLluLdYLAEIQZzGSpg6QR6b0XrMtVq2+RPCm+Cst209oDnzBxlUtlAgmJG20bHxqwuvopDGNH3gk67x4g+GldbPZ62gH6u+wCnQqW1ME8t+WlP/ANm27eU+zvEk6dwllBAI292D4cq4rK/Z/g1ofFFBc4daiDdczK6ZZYgkbASdunL4VExPDLeaM5EEBTMHVpnMQeZIH4zWxt8MXMW9g4iApLLtvMctTqD4VHxPCUZ9bbTGkFQdjJBnQSRW45mrtl8TfCKvh11UtBT77FpIB1ymAepGg167VXYbibm46XI2ZyTJkQsHx2Ok855VqrPDkUD9WCy6zmXNH7UkbxOnSm3bFmCBashhpmKqTGsjuyTz51t51umR4ZdGeXEAtAyw6nIIIBAEk9DMHTWuSYtGuAN3lYFSCY3lSAGiBB+OtXaXiBl/RrLfZBQGQvhKD+jXX9Cw9xhnwrsQCItp5bgrPXb51qNN7mfCzN47HBlYKZnMAAw94kanSQOenTxqfhblv2crMEgnecw7pJHQkadZrWYDslh2QMcGg8Lj3UYeB7g+VT07L4cRGEsiP/tun6rXZ4FVJmNLPOlsWmIFyMskgZgVzDQtrptpAGmtWCXLWQC2RMBSdhKgaZta3tvgNhdsPbB8HefUrSvwK3HcQK32T7RyAfEEaisvFJ+5dLM1wi7bWwga6siZ0I+0etFWJ7L3z/zk9Hpa66Jdolvo5JxrEH/lIP3rn8qmun6djG2FlfO5PyyzXe1ZTSRHWNf8y611e3bjuSD420b8RXouPQ3I6fpxOpsR4e0J9a6ewxX/ALiL/wBMv9WFdLKMNz6Jl/8AKpyOx3Yj4f61LLRANnFf/JA/6YB+bV1/RbpHevOfJbX4oanox6z8IoZAeR/r4VLFEAYNub3D5wP8qCnDCL1b++/8wrtcwObZ7q/uuR+Fchw64Pdv3P4gG+kVfqQU8Ptn3gx87jH5ZjTk4dajaPME/WhVxSbeyfzDofUlhXF8Riz/AOlt/wDcQ/8AjVpv3JZ3bh9nYrb+KA/UUxeFYcn3LX921P0qOmKxKnvYNY6q4PyANWVvEyO8jr5o/wBctRpoqaYxOHIPdRR5BT/lrqQR970cD/KaQ4u3zuAeZy/WnJfQ7XFP8QP41lr4FsUFuRf5/wAtdJY8/VX+pNM9sv319R+dAxKffX+8Kjinyi2dDmGwn4r+JphuP90+qR8jR+lL94fCT9K6LcB2/Gs+OPS+w1PsYHbmv+Ify09XMa/n9Ipc/lSZ/Kp449L7C2NYnw+YpAx5qp9T+VOzCjMKeKHS+xdT7EleaD4E/jNDKvIfJf5afIokU8cOl9hql2clUdB6D8q6AjoPRf5aWRRIqqEVwkNT7Akcl/xN+FICeg/vN+VLIozDpWtKJYquef1J+op+cdB6VzzUZvKqB/d/qaUP4/WmZvKiaAeWB3j0FJlXoPQU2fGifGgHQP6iiknxooUqwtv7tPzqPs0lFAKL69KFv+FFFAL7U9BXX9I6/wBelFFCC+2o9tRRQB7Y0e1NFFCCe0NBc0tFAcyB0HoPypHtA6FVPmAaWiqDmuFQbIF/dlf8pFHsCPdZx/Gx/wAxNFFSyHJ7eI+zdX+JZ+kUgXFRq1n+6/8ANRRWgMK4zrZjwVifQsPrXRLOJO9xV/6Y/nNFFWwP/R73O/6W1H1Jo/Q73/yH+C2/xU0UVm2DqmHcb3XPmE/Ba7BT1ooqFDKetLFFFChBog0UUAuWiDRRQCwaMtFFAEGlg0lFALlNJRRQp//Z"  width="300" height="300">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q9UKufl0yOJrEzRC69ymASotQBpgMrRE6Q&usqp=CAU"  width="300" height="300">
 	<h1>النص باللغة الاتينية</h1>
 
 	<p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -50,197 +61,37 @@
 		
 	</ul>
 	<br>
-  <table class="ball">
-      <thead>
-          <tr>
-              <th class="season" data-sort="">S</th>
-              <th class="team" data-sort="team">Team</th>
-              <th class="league" data-sort="league">League</th>
-              <th class="regular gp" data-sort="gp">GP</th>
-              <th class="regular g" data-sort="g">G</th>
-              <th class="regular a" data-sort="a">A</th>
-              <th class="regular tp" data-sort="tp">TP</th>
-              <th class="regular pim" data-sort="pim">PIM</th>
-              <th class="regular pm" data-sort="pm">+/-</th>
-              <th class="separator">&nbsp;</th>
-              <th class="postseason">POST</th>
-              <th class="postseason gp" data-sort="playoffs-gp">GP</th>
-              <th class="postseason g" data-sort="playoffs-g">G</th>
-              <th class="postseason a" data-sort="playoffs-a">A</th>
-              <th class="postseason tp" data-sort="playoffs-tp">TP</th>
-              <th class="postseason pim" data-sort="playoffs-pim">PIM</th>
-              <th class="postseason pm" data-sort="playoffs-pm">+/-</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr class="team-continent-NA ">
-              <td class="season sorted">
-                  2014-15
-              </td>
-              <td class="team">
-                  <i><img src="images/flag.png"></i>
-                  <span class="txt-blue">
-                      <a href="https://www.eliteprospects.com/team/10263/mit-mass.-inst.-of-tech./2014-2015?tab=stats"> MIT (Mass. Inst. of Tech.) </a>
-                  </span>
-              </td>
-              <td class="league"> <a href="https://www.eliteprospects.com/league/acha-ii/stats/2014-2015"> ACHA II </a> </td>
-              <td class="regular gp">17</td>
-              <td class="regular g">3</td>
-              <td class="regular a">9</td>
-              <td class="regular tp">12</td>
-              <td class="regular pim">20</td>
-              <td class="regular pm"></td>
-              <td class="separator"> | </td>
-              <td class="postseason">
-                  <a href="https://www.eliteprospects.com/league/acha-ii/stats/2014-2015"> </a>
-              </td>
-              <td class="postseason gp">
-              </td>
-              <td class="postseason g">
-              </td>
-              <td class="postseason a">
-              </td>
-              <td class="postseason tp">
-              </td>
-              <td class="postseason pim">
-              </td>
-              <td class="postseason pm">
-              </td>
-          </tr>
-          <tr class="team-continent-NA ">
-              <td class="season sorted">
-                  2015-16
-              </td>
-              <td class="team">
-                  <i><img src="images/flag.png"></i>
-                  <span class="txt-blue">
-                      <a href="https://www.eliteprospects.com/team/10263/mit-mass.-inst.-of-tech./2015-2016?tab=stats"> MIT (Mass. Inst. of Tech.) </a>
-                  </span>
-              </td>
-              <td class="league"> <a href="https://www.eliteprospects.com/league/acha-ii/stats/2015-2016"> ACHA II </a> </td>
-              <td class="regular gp">9</td>
-              <td class="regular g">1</td>
-              <td class="regular a">1</td>
-              <td class="regular tp">2</td>
-              <td class="regular pim">2</td>
-              <td class="regular pm"></td>
-              <td class="separator"> | </td>
-              <td class="postseason">
-                  <a href="https://www.eliteprospects.com/league/acha-ii/stats/2015-2016"> </a>
-              </td>
-              <td class="postseason gp">
-              </td>
-              <td class="postseason g">
-              </td>
-              <td class="postseason a">
-              </td>
-              <td class="postseason tp">
-              </td>
-              <td class="postseason pim">
-              </td>
-              <td class="postseason pm">
-              </td>
-          </tr>
-          <tr class="team-continent-NA ">
-              <td class="season sorted">
-                  2016-17
-              </td>
-              <td class="team">
-                  
-                  <span class="txt-blue">
-                      <a href="https://www.eliteprospects.com/team/10263/mit-mass.-inst.-of-tech./2016-2017?tab=stats"> MIT (Mass. Inst. of Tech.) </a>
-                  </span>
-              </td>
-              <td class="league"> <a href="https://www.eliteprospects.com/league/acha-ii/stats/2016-2017"> ACHA II </a> </td>
-              <td class="regular gp">12</td>
-              <td class="regular g">5</td>
-              <td class="regular a">5</td>
-              <td class="regular tp">10</td>
-              <td class="regular pim">8</td>
-              <td class="regular pm">0</td>
-              <td class="separator"> | </td>
-              <td class="postseason">
-              </td>
-              <td class="postseason gp">
-              </td>
-              <td class="postseason g">
-              </td>
-              <td class="postseason a">
-              </td>
-              <td class="postseason tp">
-              </td>
-              <td class="postseason pim">
-              </td>
-              <td class="postseason pm">
-              </td>
-          </tr>
-          <tr class="team-continent-EU ">
-              <td class="season sorted">
-                  2017-18
-              </td>
-              <td class="team">
-                  Did not play
-              </td>
-              <td class="league"> <a href="https://www.eliteprospects.com/stats"> </a> </td>
-              <td class="regular gp"></td>
-              <td class="regular g"></td>
-              <td class="regular a"></td>
-              <td class="regular tp"></td>
-              <td class="regular pim"></td>
-              <td class="regular pm"></td>
-              <td class="separator"> | </td>
-              <td class="postseason">
-                  <a href="https://www.eliteprospects.com/stats"> </a>
-              </td>
-              <td class="postseason gp">
-              </td>
-              <td class="postseason g">
-              </td>
-              <td class="postseason a">
-              </td>
-              <td class="postseason tp">
-              </td>
-              <td class="postseason pim">
-              </td>
-              <td class="postseason pm">
-              </td>
-          </tr>
-          <tr class="team-continent-NA ">
-              <td class="season sorted">
-                  2018-19
-              </td>
-              <td class="team">
-                  <i><img src="images/flag.png"></i>
-                  <span class="txt-blue">
-                      <a href="https://www.eliteprospects.com/team/10263/mit-mass.-inst.-of-tech./2018-2019?tab=stats"> MIT (Mass. Inst. of Tech.) </a>
-                  </span>
-              </td>
-              <td class="league"> <a href="https://www.eliteprospects.com/league/acha-iii/stats/2018-2019"> ACHA III </a> </td>
-              <td class="regular gp">8</td>
-              <td class="regular g">5</td>
-              <td class="regular a">10</td>
-              <td class="regular tp">15</td>
-              <td class="regular pim">8</td>
-              <td class="regular pm"></td>
-              <td class="separator"> | </td>
-              <td class="postseason">
-                  <a href="https://www.eliteprospects.com/league/acha-iii/stats/2018-2019"> </a>
-              </td>
-              <td class="postseason gp">
-              </td>
-              <td class="postseason g">
-              </td>
-              <td class="postseason a">
-              </td>
-              <td class="postseason tp">
-              </td>
-              <td class="postseason pim">
-              </td>
-              <td class="postseason pm">
-              </td>
-          </tr>
-      </tbody>
-  </table>
+	
+	<h1 class="ta">EGYPTIAN LEAGUE</h1>
+	<br>
+	<table class="ball" width ="20%" border ="4">
+		
+		<tr>
+		<th>CLUB</th>
+		<th>POINTS</th> 
+		<th>RANKING</th>
+		</tr>
+		<tr>
+		<td>AL-ahly</td>
+		<td>60</td>
+		<td>1st</td>
+		</tr>
+		<tr>
+		<td>Pyramids</td>
+		<td>55 </td>
+		<td>2nd</td>
+		</tr>
+		<tr>
+		<td>EL-gona</td>
+		<td>50</td>
+		<td>3rd</td>
+		</tr>
+		<tr>
+		<td>Zamalek</td>
+		<td>30</td>
+		<td>4th</td>
+		</tr>
+	</table>
 	
 	
 </body>
